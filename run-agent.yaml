@@ -1,6 +1,7 @@
 version: '2'
 services:
  zabbix-agent:
+  restart: alvays
   image: zabbix/zabbix-agent:ubuntu-3.4-latest
   network_mode: "host"
   #ports:
